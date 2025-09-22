@@ -1,0 +1,12 @@
+# Requirements for AWS CDK v2 Python project
+# - `aws-cdk-lib` provides the CDK v2 constructs and APIs (imported as `aws_cdk` in code)
+# - `constructs` is required by the CDK library
+# - `pytest` and `pytest-cov` are useful for running unit tests
+
+aws-cdk-lib>=2.0.0,<3.0.0
+constructs>=10.0.0,<11.0.0
+pytest>=7.0.0
+pytest-cov>=4.0.0
+
+# Optional/runtime helpers (uncomment if your app or tests use them)
+# boto3>=1.26.0  # AWS SDK for Python (only needed if your code calls AWS at runtime)

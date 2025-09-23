@@ -1,0 +1,13 @@
+#virtual environments
+venv/
+env/
+.venv/
+.env/   
+
+cdk.out/
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python     
+.DS_Store 

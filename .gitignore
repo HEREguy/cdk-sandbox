@@ -5,6 +5,8 @@ env/
 .env/   
 
 cdk.out/
+
+# Python artifacts
 *.pyc
 __pycache__/
 *.pyo

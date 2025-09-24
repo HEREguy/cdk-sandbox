@@ -11,7 +11,4 @@ __pycache__/
 *.pyd
 .Python     
 .DS_Store 
-.DS_Store
 storage/cdk.out/tree.json
-storage/cdk.out/MyAppStack.assets.json
-storage/cdk.out/manifest.json

@@ -4,10 +4,6 @@ from my_app_stack import MyAppStack
 
 app = App()
 MyAppStack(app, "MyAppStack",
-    env=Environment(
-        account=app.account,
-        region=app.region
-    )
-)
+           env=Environment(account=app.account, region=app.region))
 
 app.synth()
